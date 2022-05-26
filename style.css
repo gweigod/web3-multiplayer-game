@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "TerminusTTF";
+  src: URL("src/assets/fonts/TerminusTTF-Bold.ttf") format("truetype");
+}
+
+* {
+  font-family: "TerminusTTF";
+}
+
+body {
+  margin: 0;
+  background-image: url("src/assets/img/web/tile.jpg");
+  background-size: 500px;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  border: 3px solid #000;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000;
+  margin-bottom: 30px;
+}
+
+.button-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#btn-logout {
+  display: none;
+}
+
+button {
+  width: 80px;
+  height: 32px;
+  border: 2px solid #000;
+  background-color: #b54242;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 18px;
+  -webkit-box-shadow: 0 0 5px #000;
+  box-shadow: 0 0 5px #000;
+}
+
+button:hover {
+  background-color: #f07474;
+  cursor: pointer;
+}
+
+button:focus {
+  background-color: #b54242;
+  cursor: auto;
+}
